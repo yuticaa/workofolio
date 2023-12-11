@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+ <!-- Latest compiled and minified CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+ <!-- Latest compiled JavaScript -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+ <!-- link mont -->
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,500&display=swap">
+
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"rel="stylesheet">
+
+      <link rel="stylesheet" href="slideshow.css">
+
+      <link rel="stylesheet" href="customss.css">
+
+
+
+   
+
+  <style> 
+
+    .h1{font-family:monospace}
+
+    .iconi{
+     height: 100px;
+    }
+
+    .iconi:hover{
+        height: 70px;
+        opacity:70%;
+        border:#ffffff 0px solid
+    }
+
+
+    .skill{
+        opacity: 100%;
+    }
+
+    
+    .skill:hover{
+        opacity: 70%;
+    }
+  
+
+    .ribbonhead
+    {font-size: 32pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3d3d3d;}
+
+    .ribbonhead:hover
+    {font-style: italic;
+    font-weight:100}
+
+            .ccontainer {
+            position: relative;
+            filter: drop-shadow(70%);
+            box-shadow: 0px 0px 10px grey;
+            }
+
+            .image {
+            display: block;
+            width: 100%;
+            filter: drop-shadow(30%);
+            height: auto;
+            }
+
+            .overlay1 {
+            position: absolute;
+            filter: drop-shadow(30%);
+            bottom: 100%;
+            left: 0;
+            right: 0;
+            background-color:#a68b8e;
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            transition: .5s ease;
+            }
+
+            .ccontainer:hover .overlay1 {
+            bottom: 0;
+            height: 100%;
+            background-blend-mode: overlay;
+            border-radius: 12px;
+            opacity: 90%
+            }
+
+
+            .otext {
+            text-align:center;
+            place-items: center;
+            vertical-align: bottom;
+            font-family: 'Lucida Sans Unicode';
+            
+            font-size: 72px;
+            color: #ffffff;
+            font-size: 20px;
+            position: absolute;
+            overflow:hidden;
+            top: 50%;
+            left: 50%;
+            
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            }
+
+            a{color: #3e3e3e;}
+
+           
+
+            a:hover{
+            color: grey;
+            }
+
+            a:link{
+                color: #313131;
+                text-decoration: none;
+            }
+            
+            a:active{color: rgb(65, 65, 65);
+            
+        }
+
+
+
+    </style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,500&family=Poppins&display=swap" rel="stylesheet">
+
+  
+</head>
+
+
+<body >
+
+    <link rel="stylesheet" href="slideshow.css">
+
+    <!-- Ribbon -->
+    <div 
+        class="row mx-auto p-0 m-0 mb-0" style="height:6vh;">
+
+
+        <div class="container col-5 mx-auto mt-3"> 
+           <p>
+           <input type="text" 
+           name="text" 
+           id="text"
+           style="width:60vh">
+           </p>
+        </div>
+        <div class="container col p-0"></div>
+        
+        
+        <div class="container col-1 p-0 ribbonhead mt-3" style="font-size: large; font-weight: 700;color: #3d3d3d;"><a href="#1">Home</a></div>
+        <div class="container col-1 p-0 ribbonhead mt-3" style="font-size: large; font-weight: 700;color: #3d3d3d;"><a href="#2">Know me</a></div>
+        <div class="container col-1 p-0 ribbonhead mt-3" style="font-size: large; font-weight: 700;color: #3d3d3d;"><a href="#3">Work</a></div>
+        <div class="container col-1 p-0 ribbonhead mt-3" style="font-size: large; font-weight: 700;color: #3d3d3d;"><a href="#5">Skills</a></div>
+        <div class="container col-1 p-0 ribbonhead mt-3" style="font-size: large; font-weight: 700;color: #3d3d3d;"><a href="#5">Services</a></div>
+        <div class="container col-1 p-0 ribbonhead mt-3" style="font-size: large; font-weight: 700;color: #3d3d3d;"><a href="#4">Connect</a></div>
+    </div>
+
+
+    <!-- Home page -->
+    <div id="1"
+        class="container-fluid row mx-auto p-0 m-0 mt-0 ms-0 pb-5 vertical-align-bottom" 
+        style="height: 450px; 
+        align-items: baseline;
+        vertical-align: bottom;
+        background-image: url(./SectionHomeeAsset\ 8@3x-100.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover"> 
+    </div>
+
+
+
+    <!-- Know me page -->
+    <div id="2"
+        class="container-fluid row mx-auto p-0 m-0 mt-0 ms-0 pb-4" 
+        style="height:85vh; 
+        vertical-align: middle;
+        background-image: url(./SectionAboutAsset\ 7@3x-100.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover"> 
+    </div>
+
+    
+
+    <!-- Work -->
+
+        <div id="3" class="container" style="height: 10vh; background-color: white; text-align: center">
+          <h1 class="mt-5" style="color: #3d3d3d; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" >
+            My Work</h1></div>
+
+        <div id="3"
+            class="container row mx-auto mb-0 pb-0 mt-0" 
+            style="height:50vh; align-items: baseline;">
+
+          
+
+
+                <div class="ccontainer col-2 mx-auto rounded-4" 
+                     style="height:40vh; background-image:url(./incense\ stick.jpg); background-size: cover;">
+                     <div class="overlay"></div>
+                     <div class="otext overlay1">INCENSE STICK PACKAGING IN A ROCOCO STYLE</div>
+                </div>
+                   
+               <div class="ccontainer col-3 mx-auto rounded-4" 
+                    style="height:40vh; background-image: url(./cdbrochure.jpg); background-size: cover ;">
+                    <a href="#B">
+                        <div class="overlay"></div>
+                        <div class="otext overlay1">COMMUNICATION DESIGN BROCHURE</div>
+                    </a>
+                   
+               </div>
+
+               <div class="ccontainer col-3 mx-auto rounded-4" 
+                    style="height:40vh; background-image: url(./truffle\ whiteAsset\ 1@3x-100.jpg); background-size: cover;">
+                    <a href="#C"><div class="overlay"></div>
+                    <div class="otext overlay1">CAKE PACKAGING USING CUSTOM FONT</div>
+                </div></a>
+
+               <div class="ccontainer col-2 mx-auto rounded-4" 
+                    style="height:40vh; background-image: url(./mousepad.jpg); background-size: cover; border-radius: 50px;">
+                   <a href="#A">
+                    <div class="overlay"></div>
+                    <div class="otext overlay1">MOUSE PAD DESIGN USING AMBIGRAM</div>
+                </a>
+                </div>
+        
+                 
+
+            </div>
+        
+    
+
+
+        <div 
+        class="container row mx-auto  mt-0" 
+        style="height:50vh; vertical-align:baseline;">
+
+           <div class="ccontainer col-2 mx-auto rounded-4" 
+                style="height:40vh;background-image: url(./zodiacAsset\ 14@3x-100.jpg) ; background-size: cover;"> 
+               <div class="overlay"></div>
+               <div class="otext overlay1">BOOKLET DESIGN ON ZODIACS</div>
+            </div>
+
+           <div class="ccontainer col-3 mx-auto rounded-4"  
+                style="height:40vh ;background-image: url(./sushi.jpg);background-size:cover;">
+                <div class="overlay"></div>
+                <div class="otext overlay1">TYPOGRAPHIC GRID LAYOUT SYSTEM POSTERS ON SUSHI RECIPE</div>
+            </div>
+
+           <div class="ccontainer col-3 mx-auto rounded-4" 
+                style="height:40vh; background-image: url(./bambooAsset\ 13@3x-100.jpg); background-size: cover;">
+                <div class="overlay"></div>
+                <div class="otext overlay1">BRANDING PACKAGE OF A RESTAURANT</div>
+            </div>
+
+           <div class="ccontainer col-2 mx-auto rounded-4" 
+                style="height:40vh; background-image: url(./tag5Asset\ 5@3x-100.jpg); background-size: cover;">
+                <div class="overlay"></div>
+                <div class="otext overlay1">CLOTHING TAG IN A NEO-CLASSICAL STYLE</div>
+            </div>
+
+        </div>
+
+         
+        <div 
+        class="container row mx-auto  mt-0" 
+        style="height:50vh; vertical-align:top;">
+
+           <div class="ccontainer col-2 mx-auto rounded-4" 
+                style="height:40vh; background-image: url(./booketlt9Asset\ 1@3x-100.jpg); background-size: cover;">
+                <div class="overlay"></div>
+                <div class="otext overlay1">REDESIGNING THE BOOK 'EVERYTHING THE LIGHT TOUCHES'</div>
+           </div>
+
+           <div class="ccontainer col-3 mx-auto rounded-4" 
+                style="height:40vh; background-image: url(./bookmrityu10Asset\ 2@3x-100.jpg);background-size:cover">
+                <div class="overlay"></div>
+                <div class="otext overlay1">REDESIGNING THE BOOK 'MRITUNJAY'</div>
+            </div>
+           
+           <div class="ccontainer col-3 mx-auto rounded-4" 
+                style="height:40vh;  background-image: url(./bookwmmc11Asset\ 3@3x-100.jpg);background-size:cover">
+                <div class="overlay"></div>
+                <div class="otext overlay1">REDESIGNING THE BOOK 'WHO MOVED MY CHEESE?'</div>          
+            </div>
+           
+           <div class="ccontainer col-2 mx-auto rounded-4" 
+                style="height:40vh; background-image: url(./yadnyasanie.jpg);background-size: cover;  ">
+                <div class="overlay"></div>
+                <div class="otext overlay1">REDESIGNING THE BOOK 'YADNYASENI'</div>
+            </div>
+
+        
+
+        </div>
+
+        <div 
+        class="container row mx-auto  mt-0" 
+        style="height:50vh; vertical-align:top;">
+
+           <div class="ccontainer col-2 mx-auto rounded-4" 
+                style="height:40vh; background-image: url(./typespecimen.jpg); background-size: cover;">
+                <div class="overlay"></div>
+                <div class="otext overlay1">TYPE SPECIMEN POSTERS</div>
+           </div>
+
+           <div class="ccontainer col-3 mx-auto rounded-4" 
+                style="height:40vh; background-image: url(./websitecoir.jpg);background-size:cover">
+                <div class="overlay"></div>
+                <div class="otext overlay1">WEBSITE DESIGN</div>
+            </div>
+           
+           <div class="ccontainer col-3 mx-auto rounded-4" 
+                style="height:40vh;  background-image: url(./vinyl.jpg);background-size:cover">
+                <div class="overlay"></div>
+                <div class="otext overlay1">REDESIGNING VINYL COVER</div>          
+            </div>
+           
+           <div class="ccontainer col-2 mx-auto rounded-4" 
+                style="height:40vh; background-image: url(./reflection.jpg);background-size: cover;  ">
+                <div class="overlay"></div>
+                <div class="otext overlay1">TYPE SPECIMEN POSTER</div>
+            </div>
+
+        
+
+        </div>
+
+        
+
+        <hr>
+<!--  --
+        <div id="B" class="class container row">Communication design Brochure
+            <main>
+                <img src="https://picsum.photos/seed/picsum/1000/500" class="slide" alt="">
+                <img src="https://picsum.photos/seed/picsum/1000/500" class="slide" alt="">
+                <img src="https://picsum.photos/seed/picsum/1000/500" class="slide" alt="">
+                <img src="https://picsum.photos/seed/picsum/1000/500" class="slide" alt="">
+            </main>
+        </div>
+        <hr>
+        <br>>
+
+
+   < !-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div id="B" class="mySlides bg-primary">
+      <div class="numbertext">1 / 11</div>
+      <img src="./SLIDE1Asset 23@3x-100.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div id="A" class="mySlides ">
+      <div class="numbertext">2 / 11</div>
+      <img src="./SLIDE2Asset 24@3x-100.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 11</div>
+      <img src="./SLIDE3Asset 25@3x-100.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">4 / 11</div>
+        <img src="./SLIDE4Asset 26@3x-100.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 11</div>
+        <img src="./SLIDE5Asset 27@3x-100.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div id="C" class="mySlides">
+        <div id="C" class="numbertext">6 / 11</div>
+        <img src="./SLIDE6Asset 28@3x-100.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">7 / 11</div>
+        <img src="./SLIDE7Asset 29@3x-100.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">8 / 11</div>
+        <img src="./SLIDE8Asset 30@3x-100.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">9 / 11</div>
+        <img src="./SLIDE9Asset 31@3x-100.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">10 / 11</div>
+        <img src="./SLIDE10Asset 32@3x-100.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">11 /11</div>
+        <img src="./SLIDE11Asset 33@3x-100.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    <span class="dot" onclick="currentSlide(10)"></span>
+    <span class="dot" onclick="currentSlide(11)"></span>
+  </div>
+
+  <hr>
+</div>
+
+
+        
+
+<div id="5" class="row mx-auto" style="height: 30vh; color:aliceblue;background-color: #222222; text-align: center;vertical-align: auto;align-items: center;">
+    <h1 class="mt-5" style="color: #ffffff; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" >
+        Software Skills</h1>
+
+    <div class="class col"></div>
+    <div class="class col skill"></div>
+    <div class="col skill"><img src="./iconprocreateAsset 16@4x-8.png"  height="100px"  alt=""></div>
+    <div class="col skill"><img src="./iconillustratorAsset 17@4x-8.png"height="100px"  alt=""></div>
+    <div class="col skill"><img src="./iconphotoshopAsset 18@4x-8.png"  height="100px"  alt=""></div>
+    <div class="col skill"><img src="./iconindesignAsset 20@4x-8.png"   height="100px"  alt=""></div>
+    <div class="col skill"><img src="./iconfigmaAsset 19@4x-8.png"      height="100px"  alt=""></div>
+    <div class="col skill"><img src="./iconsketchupAsset 21@4x-8.png"   height="100px"  alt=""></div>
+    <div class="col skill"><img src="./iconvscodeAsset 22@4x-8.png"     height="100px"  alt=""></div>
+    <div class="class col skill"></div>
+    <div class="class col skill"></div>
+ </div>
+  
+
+ <div class="row mx-auto" 
+     style="height: 48vh; color:aliceblue;background-color: #222222; text-align: center;vertical-align: auto;align-items: center;">
+     <h1 class="mt-5" style="color: #ffffff; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" >
+    Services</h1>
+
+    <div class="class col" style="font-size: medium;">
+        <br>Art & Illustration <br>
+        <br>Logos & Business Cards<br>
+        <br>Packaging design <br>
+        <br>Print design <br>
+        <br>UI/UX Design <br>
+        <br>Social Media Design <br>
+        <br>Product Design <br>
+
+        <br>
+    </div>
+    <br>
+    
+    
+</div>
+        
+       
+
+        
+
+<!-- Connect me -->
+   <div id="4" class="row mx-auto" style="height: 45vh; color:aliceblue;background-color: #222222; text-align: center;vertical-align: auto;align-items: center;">
+    <h1 class="mt-5" style="color: #ffffff; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; padding-top: 50px;" >
+        Connect with me</h1>   
+    <div class="class col"></div>
+       <div class="col iconi"><a href="https://wa.me/9867712124">
+        <img src="./Whatsapp iconAsset 12@4x-8.png" height="100px" alt="Whatsapp"></a></div>
+       <div class="col iconi"><a href="https://instagram.com/_yutika12_?igshid=OGQ5ZDc2ODk2ZA==">
+        <img src="./Insta iconAsset 9@4x-8.png" height="100px" alt="Instagram"></a></div>
+       <div class="col iconi"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=yutica@gmail.com&su=SUBJECT&body=BODY">
+        <img src="./Mail iconAsset 10@4x-8.png" height="100px" alt="Gmail"></a></div>
+       <div class="col iconi"><a href="https://www.linkedin.com/in/yutika-pandurkar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+        <img src="./Linkedin iconAsset 11@4x-8.png" height="100px" alt="Linkedin"></a></div>
+       <div class="class col"></div> 
+       
+    </div>
+
+
+<br>
+<!-- for queries -->
+<form action="">
+    <div class="container mx-auto" style="align-items: center;text-align: center; height: 38vh;">
+
+        
+        <div id="4" class="row mx-auto" style="height: 10vh; color:rgb(46, 46, 46);background-color: #ffffff; text-align: center;vertical-align: auto;align-items: center;">
+       <h1 class="mt-5" style="color: #3d3d3d; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" >
+        For Collaborations and any further queries</h1></div>
+
+        <br>
+
+      
+      <br>
+      <input type="text"
+      placeholder="Your Name"
+      class="border-0 border-bottom border-secondary my-3"
+      style="background-color:inherit; ;">
+      <br>
+     
+<!--  --
+      <input type="text"
+      placeholder="Your Query"
+      class="border-0 border-bottom border-secondary my-3 mx-auto"
+      style="background-color:inherit;">
+      <br>
+!--  -->
+
+      <input type="email"
+      placeholder="Your Email"
+      class="border-0 border-bottom border-secondary my-3 mx-auto"
+      style="background-color:inherit;">
+      <br>
+
+  
+      <input type="text"
+      placeholder="Phone Number"
+      class="border-0 border-bottom border-secondary my-3"
+      style="background-color:inherit;">
+      <br>
+  
+  
+    <br> 
+      <a href="https://forms.gle/6vhdDxqnLfNWtTn8A">
+        <input type="button"
+          class="iconi"
+          value="Proceed"
+          style="height: 40px;
+                 width: 90px;
+                 border-radius: 50px;"></div></a>
+                
+   </div>
+
+   <div class="row mx-auto p-5" style="height: 20vh; color:rgb(46, 46, 46);background-color: #ffffff; text-align: center;vertical-align: auto;align-items: center;">
+    <h1 class="mt-5" style="color: #444444; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" >
+     Hope to see you again!</h1></div>
+
+     <br>
+
+   <p style="color: darkgray;">@Copywright 2023 by Yutika Pandurkar
+   </p>
+  </form>
+
+
+   
+
+    <script src="slideshow.js"></script>
+</body>
+
+</html>
+
+
+
